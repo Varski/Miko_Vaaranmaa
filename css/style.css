@@ -29,6 +29,7 @@ a:hover {
 color: rgb(0, 0, 255);
 }
 
-main{
-display: flex;
+section{
+    display: flex;
+    flex-direction: column;
 }
