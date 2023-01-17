@@ -8,7 +8,9 @@
     <title>Let's Learn Flex Box</title>
 
     <style>
-        
+        .main{
+            display: flex;
+        }
         body {
         margin: 0;
       }
@@ -31,12 +33,37 @@
         background: aqua;
 
       }
+      
+      sidebar{
+    min-width: 150px;
+    margin:10px;
+    flex-direction: row;
+    background-color: beige;
+    text-align: center;
+    text-transform: uppercase;
+
+    }
+   
       </style>
 </head>
 <body>
     <header>
+        
         <h1>Flex Box Examples </h1>
       </header>
+      
+      <div class="main">
+      <sidebar>
+        sidebar
+        <br> 
+        sidebar
+        <br> 
+        sidebar
+        <br> 
+        sidebar
+        <br> 
+        sidebar
+      </sidebar>
 
       <section>
           
@@ -72,7 +99,8 @@
             be nested inside an inline element, but it might be nested inside another block-level element.
           </p>
         </article>
-      </section> 
+      </section>
+      </div> 
       <footer>
         <h1>Learning Flex @ 2022</h1>
     </footer>
