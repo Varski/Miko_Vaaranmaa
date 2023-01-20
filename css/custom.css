@@ -1,0 +1,30 @@
+body{
+    background-color: gold;
+}
+
+header{
+    background-color: brown;
+}
+
+footer{
+    background-color: rgb(175, 175, 175);
+    height: 70px;
+    text-align: center;
+}
+
+.red{
+    background-color: rgb(255, 196, 0);
+}
+
+.col-3{
+    background-color: darkgrey;
+}
+
+.col-4{
+    background-color: rgb(65, 65, 65);
+    color:  rgb(255, 196, 0);
+}
+
+.col-5{
+    background-color: dimgray;
+}
